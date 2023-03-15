@@ -1,0 +1,97 @@
+.subscribe{
+    background-color: rgb(240, 10, 49);
+    color: white;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 4px;
+    transition: opacity 0.15s;
+}
+
+.join{
+    background-color: white;
+    color: blue;
+    border: none;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 2px;
+    transition: background-color 0.45s, color 0.45s;
+    vertical-align: top;
+}
+
+.tweet{
+
+    background-color: rgb(41, 118, 211);
+    color: rgb(240, 237, 245);
+    border: none;
+    border-radius: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: box-shadow 0.15, color 0.15s;
+    vertical-align: top;
+}
+
+.uber{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 38px;
+    width: 106px;
+    margin-right: 2px;
+    margin-left: 2px;
+    cursor: pointer;
+    transition: opacity 0.16s;
+    vertical-align: top;
+    }
+
+    .amazon{
+        background-color: rgb(247, 223, 106);
+        color: rgb(0, 0, 0);
+        height: 36px;
+        width: 100px;
+        border-style: none;
+        cursor: pointer;
+        border-radius: 38px;
+        vertical-align: top;
+    }
+    .subscribe:hover{
+        opacity: 0.8;
+    }
+    .subscribe:active{
+        opacity: 0.3;
+    }
+
+    .join:hover{
+        background-color: blue;
+        color: white;
+    }
+    .join:active{
+        opacity: 0.3;
+    }
+    .tweet:hover{
+        box-shadow: 7px 7px 10px rgba(41, 118, 211, 0.15);
+    }
+    .uber:hover{
+        opacity: 0.8;
+    }
+    .uber:active{
+        opacity: 0.3;
+    }
